@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bonanas Transient Stays | Hotel-like comfort in the heart of Koronadal City</title>
+<meta name="description" content="Modern, comfortable rooms with a homey vibe, centrally located in the heart of the city. Malls, schools and government offices are just minutes away.">
+<meta name="keywords" content="Koronadal transient house, Koronadal Airbnb, South Cotabato accommodation, Bonanas Transient Stays">
+<meta name="theme-color" content="#FBF8F3">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; viewBox=&#39;0 0 32 32&#39;%3E%3Crect width=&#39;32&#39; height=&#39;32&#39; rx=&#39;8&#39; fill=&#39;%232A2724&#39;/%3E%3Ctext x=&#39;16&#39; y=&#39;23&#39; font-size=&#39;20&#39; text-anchor=&#39;middle&#39; fill=&#39;%23FBF8F3&#39; font-family=&#39;Georgia,serif&#39;%3EB%3C/text%3E%3C/svg%3E">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bonanas Transient Stays">
+<meta property="og:title" content="Bonanas Transient Stays | Hotel-like comfort in the heart of Koronadal City">
+<meta property="og:description" content="Modern, comfortable rooms with a homey vibe, centrally located in the heart of the city. Malls, schools and government offices are just minutes away.">
+<meta property="og:image" content="uploads/seed-6fae373115-room-double-bed-private-bathroom.jpg">
+<meta property="og:url" content="">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..700&amp;family=Instrument+Sans:wght@400..700&amp;display=swap">
+<style id="theme">:root{--primary:#3A2E22;--accent:#7C8A63;--bg:#FAF3E7;--text:#2E2618;--font-head:'Fraunces', Georgia, serif;--font-body:'Instrument Sans',system-ui,-apple-system,'Segoe UI',sans-serif;--btn-radius:12px}</style>
+<link rel="stylesheet" href="css/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LodgingBusiness","name":"Bonanas Transient Stays","description":"Modern, comfortable rooms with a homey vibe, centrally located in the heart of the city. Malls, schools and government offices are just minutes away.","image":"uploads/seed-6fae373115-room-double-bed-private-bathroom.jpg","address":{"@type":"PostalAddress","streetAddress":"City of Koronadal (Capital), South Cotabato","addressLocality":"City of Koronadal","addressRegion":"South Cotabato","addressCountry":"Philippines"},"geo":{"@type":"GeoCoordinates","latitude":6.4875511,"longitude":124.8504185},"aggregateRating":{"@type":"AggregateRating","ratingValue":5,"reviewCount":1,"bestRating":5},"checkinTime":"14:00","checkoutTime":"12:00"}</script>
+</head>
+<body>
+<a class="skip" href="#app">Skip to content</a>
+<div id="promoBar"></div>
+<header id="nav" class="nav"></header>
+
+<main id="app">
+  <section id="home" class="hero">
+    <div id="heroBg" class="hero-bg"></div>
+    <div class="wrap hero-inner"><div id="heroText" class="hero-text"></div></div>
+  </section>
+
+  <div class="wrap search-wrap">
+    <form id="searchCard" class="search-card" autocomplete="off" aria-label="Check availability">
+      <button type="button" class="sc-field" data-act="pick" data-which="in"><span class="lbl">Check-in</span><span class="val" data-val="checkIn">Add date</span></button>
+      <button type="button" class="sc-field" data-act="pick" data-which="out"><span class="lbl">Check-out</span><span class="val" data-val="checkOut">Add date</span></button>
+      <label class="sc-field"><span class="lbl">Guests</span><select data-sync="guests"></select></label>
+      <label class="sc-field"><span class="lbl">Suite type</span><select data-sync="suiteId"></select></label>
+      <button type="submit" class="btn btn-primary sc-go">Check Availability</button>
+    </form>
+  </div>
+
+  <section id="about" class="section"></section>
+  <section id="suites" class="section alt"></section>
+  <section id="amenities" class="section"></section>
+  <section id="gallery" class="section alt"></section>
+  <section id="experience" class="section band"></section>
+  <section id="location" class="section"></section>
+  <section id="reviews" class="section alt"></section>
+
+  <section id="booking" class="section book">
+    <div class="wrap book-grid">
+      <div class="book-main">
+        <div id="bookHead"></div>
+        <form id="bookForm" class="book-form" autocomplete="off" novalidate>
+          <div class="grid2">
+            <button type="button" class="field" data-act="pick" data-which="in"><span class="lbl">Check-in</span><span class="val" data-val="checkIn">Add date</span></button>
+            <button type="button" class="field" data-act="pick" data-which="out"><span class="lbl">Check-out</span><span class="val" data-val="checkOut">Add date</span></button>
+            <label class="field"><span class="lbl">Number of guests</span><select data-sync="guests"></select></label>
+            <label class="field"><span class="lbl">Suite</span><select data-sync="suiteId"></select></label>
+          </div>
+          <div class="grid2">
+            <label class="field"><span class="lbl">Guest name</span><input name="name" type="text" autocomplete="name" required></label>
+            <label class="field"><span class="lbl">Phone number</span><input name="phone" type="tel" autocomplete="tel" required></label>
+            <label class="field"><span class="lbl">Email</span><input name="email" type="email" autocomplete="email" required></label>
+            <label class="field"><span class="lbl">Promo code (optional)</span><input name="promo" type="text" autocapitalize="characters"></label>
+          </div>
+          <label class="field" id="payField" hidden><span class="lbl">Preferred payment method</span><select name="payment"></select></label>
+          <label class="field"><span class="lbl">Special requests</span><textarea name="requests" rows="3" placeholder="Arrival time, extra bed, anything we should know"></textarea></label>
+          <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <p class="form-msg" id="bookMsg" role="alert" hidden></p>
+          <button type="submit" class="btn btn-primary btn-lg" id="bookCheck">Check Availability</button>
+          <div id="quotePanel" class="quote" hidden></div>
+        </form>
+        <div id="bookDone" class="book-done" hidden></div>
+      </div>
+      <aside id="bookAside" class="book-aside"></aside>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="wrap contact-grid">
+      <div id="contactInfo"></div>
+      <form id="contactForm" class="contact-form" novalidate>
+        <label class="field"><span class="lbl">Name</span><input name="name" type="text" autocomplete="name" required></label>
+        <label class="field"><span class="lbl">Email</span><input name="email" type="email" autocomplete="email" required></label>
+        <label class="field"><span class="lbl">Message</span><textarea name="message" rows="5" required></textarea></label>
+        <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <p class="form-msg" id="contactMsg" role="alert" hidden></p>
+        <button class="btn btn-primary btn-lg" type="submit">Send Inquiry</button>
+      </form>
+      <div id="contactStatic" class="contact-form" hidden></div>
+    </div>
+  </section>
+</main>
+
+<footer id="footer" class="footer"></footer>
+<div id="chat"></div>
+<div id="layer"></div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<noscript><h1>Bonanas Transient Stays</h1><p>Modern, comfortable rooms with a homey vibe, centrally located in the heart of the city. Malls, schools and government offices are just minutes away.</p></noscript>
+<script id="boot" type="application/json">{"version":1790039022331,"theme":{"css":":root{--primary:#3A2E22;--accent:#7C8A63;--bg:#FAF3E7;--text:#2E2618;--font-head:'Fraunces', Georgia, serif;--font-body:'Instrument Sans',system-ui,-apple-system,'Segoe UI',sans-serif;--btn-radius:12px}","fonts":"https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..700&family=Instrument+Sans:wght@400..700&display=swap"},"meta":{"title":"Bonanas Transient Stays | Hotel-like comfort in the heart of Koronadal City","favicon":""},"today":"2026-09-22","property":{"name":"Bonanas Transient Stays","tagline":"Hotel-like comfort in the heart of Koronadal City","description":"Modern, comfortable rooms with a homey vibe, centrally located in the heart of the city. Malls, schools and government offices are just minutes away.","ownerName":"Jana Lyn","yearEstablished":"2021","logo":"","favicon":"","airbnbUrl":"https://www.airbnb.com.au/rooms/1036714068221847950","hostPhoto":"","hostBio":"Hi, I'm Jana! I love hosting people and I'm proud to say that you'll consider my place your home away from home. My love for travel and interior design made me decide to rent my place to travellers like me who are looking for a cozy, budget-friendly and comfortable place to stay.","hostRating":"4.57","hostReviews":"168","hostYears":"5","hostResponse":"Responds within an hour"},"location":{"address":"City of Koronadal (Capital), South Cotabato","addressNote":"","city":"City of Koronadal","province":"South Cotabato","country":"Philippines","lat":"6.4875511","lng":"124.8504185","mapEmbedUrl":"","mapsLink":"","landmarks":"","airportDistance":"","beachDistance":"","nearby":[{"category":"shopping","name":"Malls and shopping","time":"Minutes away"},{"category":"schools","name":"Schools and universities","time":"Minutes away"},{"category":"government","name":"Government offices","time":"Minutes away"}]},"contact":{"phone":"","email":"","messenger":"","whatsapp":"","viber":"","facebook":"https://www.facebook.com/people/Bonanas-Transient-Stays/100085919013016/","instagram":"","tiktok":"","emergencyContact":"","receptionHours":"Message us any time. We usually reply within an hour.","chatButton":true},"homepage":{"heroImage":"uploads/seed-5dec478340-room-double-bed-workspace.jpg","heroVideo":"","heroHeadline":"Your Private Escape, Designed for Comfort.","heroDescription":"Experience stylish suites, relaxing spaces, and a home-like stay in the heart of Koronadal City.","cta1Label":"Book Your Stay","cta1Link":"#booking","cta2Label":"Explore Suites","cta2Link":"#suites","introHeading":"Stay Somewhere Beautiful.","introText":"Designed for travelers who value comfort, privacy, and style, our suites provide everything you need for a relaxing stay. Whether you're here for a weekend, a family trip, or an extended visit, every detail is meant to make you feel at home.","introImage":"uploads/seed-409865268b-room-double-bed-wood-wall.jpg","featuredSuites":[],"featuredAmenities":[],"suitesHeading":"Find Your Perfect Suite","amenitiesHeading":"Everything You Need, All in One Place.","galleryHeading":"A Look Inside","experienceHeading":"More Than Just a Place to Stay.","experienceImage":"","experience":[{"icon":"leaf","title":"Relax","text":"Unwind in a peaceful and beautifully designed space."},{"icon":"compass","title":"Explore","text":"Discover restaurants, shopping and everyday city life just minutes away."},{"icon":"heart","title":"Reconnect","text":"Create memorable moments with family, friends, or someone special."}],"locationHeading":"Stay Close to Everything.","reviewsHeading":"What Our Guests Say","bookingHeading":"Ready for Your Next Escape?","bookingText":"Choose your dates, select your suite, and start planning your stay.","contactHeading":"Have Questions?","showPromoBanner":true,"showGallery":true,"showExperience":true,"showLocation":true,"showReviews":true},"policies":{"houseRules":"Check-in is after 2:00 PM and check-out is before 12:00 PM.\nMaximum of 4 guests per room.\nPlease treat the room and shared spaces with care and be considerate of neighbors.","checkInPolicy":"Self check-in: building staff will help you check in. Check-in is after 2:00 PM.","checkOutPolicy":"Please check out before 12:00 PM.","earlyCheckIn":"Early check-in may be possible depending on availability. Please message us in advance.","lateCheckOut":"Late check-out may be possible depending on availability. Please message us in advance.","quietHours":"","visitorPolicy":"Registered guests only. Please let us know in advance if you expect visitors.","petPolicy":"","smokingPolicy":"","idRequirements":"A valid government-issued ID is required at check-in.","cancellation":"Free cancellation up to 48 hours before check-in. Later cancellations may forfeit the first night.","refund":"Eligible refunds are returned through the original payment method within 7 business days.","privacy":"We collect your name, email address and phone number only to process your booking or answer your inquiry. We never sell your data. We share it only with people who need it to host you, such as building staff. Contact us any time to have your information corrected or removed.","terms":"By requesting a booking you agree to our house rules, cancellation policy and payment terms. A booking is confirmed once we reply to your request. Guests are responsible for any damage to the property during their stay.","safety":"Exterior security cameras are installed on the property. Building staff can assist you at check-in.","emergency":""},"rules":{"minStay":1,"maxStay":30,"checkInTime":"14:00","checkOutTime":"12:00","requireId":true,"depositRequired":false,"depositPercent":50,"autoConfirm":false},"payments":{"methods":[{"key":"cash","label":"Cash on arrival"},{"key":"gcash","label":"GCash"}],"instructions":"After we confirm your request we will send you the payment details. Your booking is secured once payment is received."},"pricing":{"symbol":"₱","currency":"PHP","taxPercent":0},"amenities":[{"key":"wifi","label":"Free Wi-Fi","icon":"wifi"},{"key":"aircon","label":"Air conditioning","icon":"aircon"},{"key":"tv","label":"TV","icon":"tv"},{"key":"fridge","label":"Refrigerator","icon":"fridge"},{"key":"microwave","label":"Microwave","icon":"microwave"},{"key":"kitchen","label":"Kitchen","icon":"kitchen"},{"key":"coffee","label":"Coffee & tea","icon":"coffee"},{"key":"washer","label":"Washing machine","icon":"washer"},{"key":"hairdryer","label":"Hair dryer","icon":"hairdryer"},{"key":"hotshower","label":"Hot shower","icon":"shower"},{"key":"balcony","label":"Balcony","icon":"balcony"},{"key":"pool","label":"Swimming pool","icon":"pool"},{"key":"parking","label":"Free parking","icon":"parking"},{"key":"workspace","label":"Dedicated workspace","icon":"laptop"},{"key":"dining","label":"Dining area","icon":"dining"},{"key":"towels","label":"Towels","icon":"towel"},{"key":"toiletries","label":"Toiletries","icon":"drop"},{"key":"security","label":"Security cameras","icon":"shield"},{"key":"elevator","label":"Elevator","icon":"elevator"},{"key":"generator","label":"Backup power","icon":"zap"},{"key":"doorlock","label":"Lock on bedroom door","icon":"lock"},{"key":"luggage","label":"Luggage drop-off","icon":"luggage"},{"key":"selfcheckin","label":"Self check-in","icon":"key"}],"categories":[{"key":"bedroom","label":"Bedroom"},{"key":"living","label":"Living room"},{"key":"kitchen","label":"Kitchen"},{"key":"bathroom","label":"Bathroom"},{"key":"balcony","label":"Balcony"},{"key":"dining","label":"Dining area"},{"key":"pool","label":"Pool"},{"key":"exterior","label":"Exterior"},{"key":"common","label":"Common areas"},{"key":"attraction","label":"Nearby attractions"}],"suites":[{"name":"Family Double Suite","unitNumber":"","type":"Room in a rental unit","active":true,"shortDescription":"A modern, homey room with two double beds, a private attached bathroom and free parking, right in the city center.","description":"Your own room in a home, plus access to shared spaces. Stay at this modern and comfortable room with a homey vibe, centrally located at the heart of the city. Malls, schools and government offices are just minutes away.\n\nThe room sleeps up to four guests across two double beds, with a private bathroom attached, air conditioning, Wi-Fi and a dedicated workspace. Check in yourself with help from the building staff, and park for free on the premises.","maxGuests":4,"includedGuests":2,"bedrooms":1,"beds":2,"bedsText":"2 double beds","bathrooms":1,"bathroomText":"Private attached bathroom","floor":"","roomSize":"","balcony":false,"viewType":"","smoking":"","petPolicy":"","accessibility":"","virtualTourUrl":"","amenities":["wifi","aircon","tv","workspace","parking","security","doorlock","luggage","selfcheckin"],"priceRegular":800,"priceWeekend":0,"priceHoliday":0,"priceWeekly":0,"priceMonthly":0,"promoPrice":0,"discountPercent":0,"cleaningFee":0,"securityDeposit":1000,"extraGuestFee":0,"extraBedFee":0,"minStay":1,"maxStay":30,"id":"s_family","_sort":1,"createdAt":"2026-09-22T01:03:37.761Z","updatedAt":"2026-09-22T01:03:37.761Z","busy":[],"rating":{"avg":5,"count":1}}],"photos":[{"id":"p_2a65d17301","suiteId":"s_family","category":"bedroom","url":"uploads/seed-6fae373115-room-double-bed-private-bathroom.jpg","caption":"Double bed with private attached bathroom","primary":true},{"id":"p_47b16c97b4","suiteId":"","category":"bedroom","url":"uploads/seed-5dec478340-room-double-bed-workspace.jpg","caption":"Room with a workspace desk","primary":false},{"id":"p_9951744c2f","suiteId":"s_family","category":"bedroom","url":"uploads/seed-8c4bc48004-room-double-bed-desk-sink.jpg","caption":"Bright room with desk and sink area","primary":false},{"id":"p_bbc0f60cc0","suiteId":"s_family","category":"bedroom","url":"uploads/seed-1455ab1b37-room-two-beds-loft.jpg","caption":"Two beds with a loft bed above","primary":false},{"id":"p_e307f39523","suiteId":"","category":"bedroom","url":"uploads/seed-409865268b-room-double-bed-wood-wall.jpg","caption":"Double bed with a wood accent wall","primary":false},{"id":"p_267dd07e65","suiteId":"","category":"bedroom","url":"uploads/seed-0f2a9ea836-room-double-bed-blue-linens.jpg","caption":"Fresh linens and rolled towels","primary":false},{"id":"p_cd3d6398dd","suiteId":"","category":"bedroom","url":"uploads/seed-6c5c67f26d-room-loft-bed-blue-wall.jpg","caption":"Loft bed with a blue accent wall","primary":false},{"id":"p_0370e1ea33","suiteId":"","category":"bedroom","url":"uploads/seed-60baa9964e-room-loft-leaf-art.jpg","caption":"Loft room with leaf-print wall art","primary":false},{"id":"p_3459691007","suiteId":"","category":"bedroom","url":"uploads/seed-8acf16a1fe-room-shared-bunk-beds.jpg","caption":"Shared room with bunk beds","primary":false}],"reviews":[{"id":"r_f8697ab890","name":"Ivy Joy","photo":"","rating":5,"date":"2025-12-01","text":"Great deal for small fam who's staying for a very short time at some place far from home, but this place felt like home and it is as described too.","source":"Airbnb","suiteId":""}],"rating":{"avg":5,"count":1},"promotions":[],"static":true,"staticCfg":{"weekendDays":"5,6","holidays":[],"tzOffset":8,"maxAdvanceDays":365,"forms":"netlify"}}</script>
+<script src="js/shared.js"></script>
+<script src="js/pricing.js"></script>
+<script src="js/site.js"></script>
+<form name="booking" data-netlify="true" netlify-honeypot="website" hidden><input name="suite"><input name="check_in"><input name="check_out"><input name="nights"><input name="guests"><input name="estimated_total"><input name="promo_code"><input name="payment_method"><input name="guest_name"><input name="phone"><input name="email"><textarea name="requests"></textarea><textarea name="message"></textarea><input name="website"></form>
+<form name="inquiry" data-netlify="true" netlify-honeypot="website" hidden><input name="name"><input name="email"><textarea name="message"></textarea><input name="website"></form>
+</body>
+</html>

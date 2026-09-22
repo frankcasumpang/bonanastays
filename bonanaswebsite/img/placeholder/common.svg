@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4EDE0"/><stop offset="1" stop-color="#E7DAC5"/></linearGradient>
+<linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9C8AA"/><stop offset="1" stop-color="#C6B291"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#DCE7E3"/><stop offset="1" stop-color="#F7F1E4"/></linearGradient>
+<radialGradient id="glow" cx=".2" cy=".3" r=".9"><stop offset="0" stop-color="#FFF6DD" stop-opacity=".85"/><stop offset="1" stop-color="#FFF6DD" stop-opacity="0"/></radialGradient>
+
+</defs><rect width="1200" height="800" fill="url(#wall)"/><rect y="600" width="1200" height="200" fill="url(#floor)"/>
+<rect y="594" width="1200" height="6" fill="#B9A582" opacity=".55"/><rect width="1200" height="800" fill="url(#glow)"/><rect x="750" y="100" width="320" height="320" rx="10" fill="#FBF8F1"/>
+<rect x="760" y="110" width="300" height="300" rx="4" fill="url(#sky)"/>
+<path d="M910 110V410M760 260H1060" stroke="#FBF8F1" stroke-width="8"/>
+<rect x="714" y="90" width="40" height="390" rx="10" fill="#A9B49B"/>
+<rect x="1066" y="90" width="40" height="390" rx="10" fill="#A9B49B"/>
+<rect x="140" y="130" width="300" height="200" rx="6" fill="#FBF8F1"/><rect x="160" y="150" width="260" height="160" fill="#C9BBA1"/><path d="M160 290l70-80 60 50 50-70 80 100z" fill="#8C987F"/>
+<rect x="200" y="440" width="560" height="170" rx="38" fill="#B3A38C"/><rect x="230" y="400" width="500" height="110" rx="34" fill="#C4B69E"/>
+<rect x="240" y="410" width="120" height="100" rx="20" fill="#8C987F"/><rect x="600" y="410" width="120" height="100" rx="20" fill="#E9DDC8"/>
+<rect x="180" y="600" width="24" height="40" fill="#5E5346"/><rect x="756" y="600" width="24" height="40" fill="#5E5346"/>
+<ellipse cx="480" cy="700" rx="360" ry="46" fill="#E9DDC8"/><rect x="380" y="640" width="200" height="34" rx="12" fill="#73685A"/>
+<path d="M980 470v170" stroke="#5E5346" stroke-width="8"/><path d="M930 470l20-90h60l20 90z" fill="#FFF0C9"/><g transform="translate(1100 590) scale(0.95)"><path d="M-34 0h68l-10 90h-48z" fill="#8B7A66"/>
+<ellipse cx="-22" cy="-46" rx="16" ry="52" fill="#6F7F63" transform="rotate(-24 -22 -46)"/>
+<ellipse cx="0" cy="-64" rx="16" ry="62" fill="#7F9072"/>
+<ellipse cx="24" cy="-44" rx="16" ry="50" fill="#5F6F55" transform="rotate(24 24 -44)"/></g></svg>

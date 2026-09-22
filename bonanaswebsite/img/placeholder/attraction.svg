@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4EDE0"/><stop offset="1" stop-color="#E7DAC5"/></linearGradient>
+<linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9C8AA"/><stop offset="1" stop-color="#C6B291"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#DCE7E3"/><stop offset="1" stop-color="#F7F1E4"/></linearGradient>
+<radialGradient id="glow" cx=".2" cy=".3" r=".9"><stop offset="0" stop-color="#FFF6DD" stop-opacity=".85"/><stop offset="1" stop-color="#FFF6DD" stop-opacity="0"/></radialGradient>
+
+</defs><rect width="1200" height="800" fill="url(#sky)"/><circle cx="900" cy="170" r="72" fill="#FFF0C4"/>
+<path d="M0 560L230 320 400 480 640 190 960 520 1200 400V800H0z" fill="#B8C4B0"/><path d="M0 640L260 450 470 590 700 380 980 620 1200 520V800H0z" fill="#8C987F"/><path d="M0 730c200-60 420-60 640 0s400 40 560-30v100H0z" fill="#6F7F63"/></svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice">
+<defs>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4EDE0"/><stop offset="1" stop-color="#E7DAC5"/></linearGradient>
+<linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9C8AA"/><stop offset="1" stop-color="#C6B291"/></linearGradient>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#DCE7E3"/><stop offset="1" stop-color="#F7F1E4"/></linearGradient>
+<radialGradient id="glow" cx=".2" cy=".3" r=".9"><stop offset="0" stop-color="#FFF6DD" stop-opacity=".85"/><stop offset="1" stop-color="#FFF6DD" stop-opacity="0"/></radialGradient>
+
+</defs><rect width="1200" height="800" fill="url(#sky)"/><rect y="330" width="1200" height="470" fill="#D9CDB6"/>
+<rect x="110" y="380" width="980" height="330" rx="26" fill="#A9C8C4"/><rect x="140" y="410" width="920" height="270" rx="16" fill="#BFDAD5"/>
+<g stroke="#E4F1EE" stroke-width="6" fill="none" opacity=".8"><path d="M170 450q60-18 120 0t120 0 120 0 120 0 120 0 120 0 120 0"/><path d="M170 510q60-18 120 0t120 0 120 0 120 0 120 0 120 0 120 0"/><path d="M170 570q60-18 120 0t120 0 120 0 120 0 120 0 120 0 120 0"/><path d="M170 630q60-18 120 0t120 0 120 0 120 0 120 0 120 0 120 0"/></g>
+<g transform="translate(80 380) scale(0.9)"><path d="M-34 0h68l-10 90h-48z" fill="#8B7A66"/>
+<ellipse cx="-22" cy="-46" rx="16" ry="52" fill="#6F7F63" transform="rotate(-24 -22 -46)"/>
+<ellipse cx="0" cy="-64" rx="16" ry="62" fill="#7F9072"/>
+<ellipse cx="24" cy="-44" rx="16" ry="50" fill="#5F6F55" transform="rotate(24 24 -44)"/></g><g transform="translate(1130 380) scale(0.9)"><path d="M-34 0h68l-10 90h-48z" fill="#8B7A66"/>
+<ellipse cx="-22" cy="-46" rx="16" ry="52" fill="#6F7F63" transform="rotate(-24 -22 -46)"/>
+<ellipse cx="0" cy="-64" rx="16" ry="62" fill="#7F9072"/>
+<ellipse cx="24" cy="-44" rx="16" ry="50" fill="#5F6F55" transform="rotate(24 24 -44)"/></g><g><rect x="230" y="720" width="180" height="26" rx="10" fill="#FAF6EE"/><rect x="790" y="720" width="180" height="26" rx="10" fill="#FAF6EE"/></g></svg>
